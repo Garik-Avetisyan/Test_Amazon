@@ -1,4 +1,3 @@
-from selenium.webdriver.common.by import By
 import time
 from LocatorsFile.AmazonLocators import *
 
