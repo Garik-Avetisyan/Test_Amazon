@@ -14,7 +14,7 @@ class CartPageClass():
             deleteButton = self.driver.find_element(*cartPageDeleteButton)
             deleteButton.click()
             numberOfProductsInCart -= 1
-            time.sleep(3)
+            time.sleep(2)
 
     def delete_one_product(self):
         deleteButton = self.driver.find_element(*cartPageDeleteButton)

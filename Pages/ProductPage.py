@@ -9,4 +9,3 @@ class ProductPageClass():
     def add_to_cart(self):
         addToCart = self.driver.find_element(*addToCartButtn)
         addToCart.click()
-        time.sleep(1)

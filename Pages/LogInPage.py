@@ -12,12 +12,11 @@ class MainPageClass():
         emailInputField.clear()
         time.sleep(3)
         emailInputField.send_keys(login)
-        time.sleep(3)
+
 
     def press_continue(self):
         continueButton = self.driver.find_element(*logInPageContinueButton)
         continueButton.click()
-        time.sleep(3)
 
     def fill_password(self,password):
         passInputField = self.driver.find_element(*logInPagePassInputField)
@@ -26,14 +25,12 @@ class MainPageClass():
         passInputField.clear()
         time.sleep(3)
         passInputField.send_keys(password)
-        time.sleep(3)
 
     def click_remember_me(self):
         rememnberMe = self.driver.find_element(*logInPageRememberMe)
         rememnberMe.click()
-        time.sleep(3)
+
 
     def press_signin_button(self):
         signInButton = self.driver.find_element(By.ID, "signInSubmit")
         signInButton.click()
-        time.sleep(3)

@@ -21,8 +21,7 @@ cartPageDeleteButton = (By.XPATH, "(//input[@value='Delete'])[1]")
 
 
 # Search result page
-resultPageFirstProduct = (By.XPATH, "//div[@data-index='1']//div[1]//div[1]//div[1]//div[1]//div[1]//div[1]//div[1]")
-
+resultPageFirstProduct = (By.XPATH, "(//span[@class='a-size-base-plus a-color-base a-text-normal'])[1]")
 
 #product page
 addToCartButtn = (By.ID, "add-to-cart-button")

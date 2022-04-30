@@ -8,4 +8,3 @@ class SearchResultClass():
     def open_first_element(self):
         firstElement = self.driver.find_element(*resultPageFirstProduct)
         firstElement.click()
-        time.sleep(1)
