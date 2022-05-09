@@ -4,6 +4,7 @@ from selenium.webdriver.common.by import By
 # LogIn page
 logInPageEmailInputField = (By.ID, "ap_email")
 logInPageContinueButton = (By.ID, "continue")
+
 logInPagePassInputField = (By.ID, "ap_password")
 logInPageRememberMe = (By.NAME, "rememberMe")
 logInPageSignInButton = (By.ID, "signInSubmit")
@@ -14,6 +15,8 @@ homePageCart = (By.ID, "nav-cart-count")
 goHomePage = (By.ID, "nav-logo-sprites")
 clickFileSearch = (By.ID, "twotabsearchtextbox")
 clickSearchButton = (By.ID, "nav-search-submit-button")
+accountBlockk = (By.ID, "nav-link-accountList")
+signOutButton = (By.ID, "nav-item-signout")
 
 # Cart page
 cartPageCartCount = (By.ID, "nav-cart-count")
@@ -25,3 +28,6 @@ resultPageFirstProduct = (By.XPATH, "(//span[@class='a-size-base-plus a-color-ba
 
 #product page
 addToCartButtn = (By.ID, "add-to-cart-button")
+
+errorMasage = (By.XPATH,"//span[@class='a-list-item']")
+
