@@ -7,9 +7,3 @@ class SetUpClass():
         self.driver.delete_all_cookies()
         self.driver.maximize_window()
         self.driver.implicitly_wait(10)
-    #
-    # def a(self):
-    #     signOut = self.driver.find_element()
-    #     signOut.send_keys("")
-
-
